@@ -39,9 +39,9 @@
       display: block;
       fill: currentColor;
   }
-
+  
   color: rgba(255, 255, 255, 0.87);
-  background-image: linear-gradient(to bottom, #6EBCBA 0%, #1E6082 75%,rgb(77, 166, 250) 35%, #80D0C7 100%);
+  background-image: linear-gradient(to bottom, #6EBCBA 10%, #2779a1 55%,rgb(77, 166, 250) 40%, #80D0C7 100%);
   min-height: 100vh;
 
   font-synthesis: none;
