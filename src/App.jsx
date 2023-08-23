@@ -1,16 +1,10 @@
 import './App.css'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import Search from './components/Search'
-import Specialties from './components/specialties'
+import Router from './router'
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Search/>
-      <Specialties/>
-      <Footer/>
+      <Router/>
     </>
   )
 }

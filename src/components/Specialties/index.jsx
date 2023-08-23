@@ -1,14 +1,14 @@
-import '../styles/Specialties.css';
+import '../../styles/Specialties.css';
 import { useState, useEffect } from 'react';
 
-function Specialties() {  
+export default function Specialties() {  
   const [imageComponents, setImageComponents] = useState([]);
 
   useEffect(() => {
     const importImages = async () => {
       const imagePaths = ['Teleconsulta.png', 'Doctor General.png', 'Dentista.png','Ortopedista.png','Pediatra.png','Ginecologa.png', 'Cardiolo.png'];
       const imageImports = await Promise.all(
-        imagePaths.map(path =>  `../img/specialties/${path}`)
+        imagePaths.map(path =>  `../../img/specialties/${path}`)
       );
 
       const imageComponents = imageImports.map((module, index) => (
@@ -29,7 +29,7 @@ function Specialties() {
   }, []);
 
   return(
-    <main>
+    <section>
       <div className='main-specialties'>
       <h4>Especialdades</h4>
       <div className='specialties-items'>
@@ -39,8 +39,7 @@ function Specialties() {
         ))}
       </div>
     </div>
-    </main>
+    </section>
     
   )
 }
-export default Specialties;

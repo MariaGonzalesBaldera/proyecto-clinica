@@ -1,8 +1,8 @@
 // import React from "react";
-import '../styles/Navbar.css';
-import menu from '../img/hamburger.png';
+import '../../styles/Navbar.css';
+import menu from '../../img/hamburger.png';
 
-function Navbar() {
+export default function Navbar() {
   const pulsar = () => {
     const mainMenuElement = document.getElementById('main-menu');
     mainMenuElement.classList.toggle('main-menu--show');
@@ -29,4 +29,3 @@ function Navbar() {
       </nav>
   )
 }
-export default Navbar

@@ -1,9 +1,9 @@
 //import React from "react";
-import '../styles/Search.css';
-import logo from '../img/hospital.png';
-import lupa from '../img/search.png';
+import '../../styles/Search.css';
+import logo from '../../img/hospital.png';
+import lupa from '../../img/search.png';
 
-function Search() {  
+export default function Search() {  
   return(
     <>
       <div className='main-search'>
@@ -21,4 +21,3 @@ function Search() {
     
   )
 }
-export default Search
