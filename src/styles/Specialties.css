@@ -29,3 +29,9 @@ main{
   margin-top: 1rem;
   margin-bottom: -1rem;
 }
+.specialties-items div:hover{
+  margin-top: -0.3rem;
+  transition:all .5s ease-in-out;
+  filter: contrast(1.6) invert(2%);
+  cursor: pointer;
+}

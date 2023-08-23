@@ -41,7 +41,9 @@
   }
   
   color: rgba(255, 255, 255, 0.87);
-  background-image: linear-gradient(to bottom, #6EBCBA 10%, #2779a1 55%,rgb(77, 166, 250) 40%, #80D0C7 100%);
+  
+  background-image: linear-gradient(to bottom, #6cb3b0 10%, #2f87b3 40%, rgb(77, 166, 250) 55%, #6cb3b0 100%);
+
   min-height: 100vh;
 
   font-synthesis: none;
