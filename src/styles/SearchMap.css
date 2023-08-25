@@ -1,0 +1,95 @@
+
+.section-map{
+  text-align: left;
+  height: 84vh;
+  background-color: #d0e9e8;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+.div-list{
+  height: 100vh;
+  color: #959595;
+}
+
+.div-list-item{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  height: 9.5rem;
+  background: #e8f4f3;
+  border-radius: 1rem ;
+  padding-top: 0.5rem;
+}
+.div-list .text-name:first-child {
+  width: 10.5rem;
+}
+.div-list-item div{
+  padding-top: 0.5rem ;
+  position: relative;
+  
+}
+
+.div-list-item:hover{
+  border: solid 0.2rem #4a7978;
+}
+
+
+.div-list-item img{
+  width: 5rem;
+  height: 5rem;
+}
+.text-name{
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.text-type{
+  width: 90%;
+  font-size: 0.8rem;  
+  margin-top: -0.2rem;
+  margin-bottom: 1rem;
+  color: #6ebcba;
+}
+
+.div-days{
+  width: 90%;
+  align-content: center;
+}
+
+.div-days div{
+  width: 60%;
+  height: 1.7rem;
+  margin-left: 2rem;
+}
+
+.div-days-item{ 
+  position: relative;
+  width: 12rem;
+  color: #b9dddc;
+  text-align: center;  
+  margin-bottom: 0.4rem;
+  border: solid 1px #395a59;
+  border-radius: 0.8rem;
+  background-color: #395a59;
+}
+
+.div-days-item:hover{
+  cursor: pointer;
+  filter: contrast(1.2);
+} 
+
+.text-description{
+  margin-top: 0.5rem;
+  margin-left: -1rem;
+}
+
+.div-price{
+  background-color: #a1d2d1;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  display: inline;
+  font-weight: bold;
+}
+.div-description-doctor{
+  margin-top: 0.6rem;
+}

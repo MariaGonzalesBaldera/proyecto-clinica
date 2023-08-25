@@ -4,7 +4,7 @@ export default function Footer() {
 
   return(
   <div>
-    <p></p>  
+    <h1>Ejemplo de Nav</h1>  
   </div>    
   )
 }

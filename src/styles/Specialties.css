@@ -12,6 +12,7 @@ section{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap :2rem;
+  text-decoration: none;
 }
 
 .specialties-items div{
@@ -21,6 +22,7 @@ section{
   width: 100%;
   height: 8rem;
   box-shadow: 0 0 1rem #58629b;
+  
 }
 
 .specialties-items div img{

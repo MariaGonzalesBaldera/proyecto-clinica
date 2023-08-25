@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../../styles/Specialties.css';
 import { useState, useEffect } from 'react';
 
@@ -32,12 +33,12 @@ export default function Specialties() {
     <section>
       <div className='main-specialties'>
       <h4>Especialdades</h4>
-      <div className='specialties-items'>
+      <Link to={"/select"} className='specialties-items'>
         {imageComponents.map((item, index) => (
           <div key={index}>{item}
           </div>
         ))}
-      </div>
+      </Link>
     </div>
     </section>
     
