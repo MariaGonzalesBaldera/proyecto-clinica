@@ -2,7 +2,6 @@ import perfil from '../../img/specialties/Doctor General.png';
 
 export default function DivDoctor (){
   return(
-    <div className='div-list'>
         <div className='div-list-item'>
           <div className='text-name'>Dr. Diana M.
             <p className='text-type'>Domicilio</p>
@@ -22,6 +21,5 @@ export default function DivDoctor (){
           </div>
         </div>
 
-      </div>
   )
 }
