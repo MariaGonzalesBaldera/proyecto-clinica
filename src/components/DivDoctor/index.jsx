@@ -2,7 +2,7 @@ import perfil from '../../img/specialties/Doctor General.png';
 
 export default function DivDoctor (){
   return(
-        <div className='  '>
+        <div className='div-list-item'>
           <div className='text-name'>Dr. Diana M.
             <p className='text-type'>- Domicilio - Clinica</p>
             <img src={perfil} alt='perfil.png'/>
