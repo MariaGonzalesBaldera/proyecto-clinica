@@ -14,7 +14,11 @@ img{
   z-index: 1;
 
 }
-
+@media screen and (min-width: 768px) {
+  .toggle-menu{
+    display: none; 
+  }  
+}
 .main-menu{
   list-style: none;
   margin-top: 0;
@@ -36,11 +40,36 @@ img{
 
 }
 
+@media screen and (min-width: 768px) {
+  .main-menu{
+    flex-direction: row;
+    transform: translateY(0);
+  }  
+}
+
 .main-menu__item{
   padding: 1.6em;
   font-size: 1.1rem;
   position: relative;
   color: #a0a0a0;
+}
+
+.main-menu__item:after{
+  content: "";
+  position: absolute;
+  background-color: #436E7C;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+.main-menu__item:hover{
+  font-weight: bold;
+  color: #fff;
+}
+.main-menu__item:hover::after{
+  width: 100%;
 }
 
 .main-menu__link{

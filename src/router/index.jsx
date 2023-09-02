@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route} from  'react-router-dom';
-import { Home, SpecialtiesSelect } from '../pages'
+import { DescriptionDoctor, Home, SpecialtiesSelect } from '../pages'
  
 export default function Router(){
     return(
@@ -7,6 +7,7 @@ export default function Router(){
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/select' element={<SpecialtiesSelect/>} />
+                <Route path='/description' element={<DescriptionDoctor/>} />
             </Routes>
         </BrowserRouter>
     )

@@ -1,106 +1,88 @@
 
 .section-map{
   text-align: left;
-  height: 84vh;
   background-color: #d0e9e8;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 2fr));
+
 }
 .div-list{
-  height: 100vh;
   color: #959595;
   overflow: auto;
-  max-height: 84vh; 
-}
-.div-list::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-.div-list::-webkit-scrollbar-thumb {
-  background-color: #8ba2a1;
-  border-radius: 1rem;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.div-list::-webkit-scrollbar-track {
-  background-color: #ddd;
-}
 .div-list-item{
   margin: 0.5rem 0.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  height: 9.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 2fr));
   background: #e8f4f3;
   border-radius: 1rem ;
-  padding-top: 0.5rem;
 }
-.div-list .text-name:first-child {
-  width: 9rem;
+
+.link-description{
+  text-decoration: none;
 }
 .div-list-item .text-name img{
-  margin-top: -1rem;  
-  border: solid 1px tomato;
+  display: flex;
   width: 5rem;
   height:5rem;
-}
-.div-list-item div{
-  padding-top: 0.5rem ;
-  width: 13rem;
 }
 
 .div-list-item:hover{
   border: solid 0.2rem #4a7978;
 }
 
-
-.div-list-item img{
-  width: 5rem;
-  height: 5rem;
-}
 .text-name{
   font-weight: bold;
   padding-left: 0.5rem;
 }
 
 .text-type{
-  width: 90%;
   font-size: 0.8rem;  
   margin-top: -0.2rem;
   margin-bottom: 1rem;
   color: #6ebcba;
 }
 .text-description{
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-left: -1.2rem;
   min-width: 100%;
 }
 
 .div-price{
+  margin-left: 1.5rem;
   background-color: #a1d2d1;
   border-radius: 0.5rem;
-  text-align: center;
   padding: 0.5rem;
   display: inline;
   font-weight: bold;
+
 }
+
 .div-description-doctor{
-  margin-top: 0.6rem;
-  margin-left: -3.5rem;
-}
-.div-days{
+  margin-top: 0.5rem;
   margin-left: 1rem;
 }
 
-.div-days div{
-  width: 60%;
-  height: 1.75rem;
+.div-days{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.div-days-item{ 
-  width: 12rem;
+.div-days div{
+  min-width: 60%;
+  min-height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   color: #b9dddc;
-  text-align: center;  
   margin-bottom: 0.4rem;
-  border: solid 1px #395a59;
   border-radius: 0.8rem;
   background-color: #395a59;
 }
@@ -110,42 +92,34 @@
   filter: contrast(1.2);
 } 
 
-.div-map{
-  max-width: 100%;
-  max-height: 100%;
+.div-map{  
+  min-height: 80vh;
+  display: flex;
+  min-width: 40vh;
+
 }
 .iframe-map{
   border: none;
-  width: 100%;
-  height: 80vh;
+  min-width:100%;
+  max-height: 100%;
 }
 
-@media screen and (max-width:1024px){
-  .section-map{
-    font-size: 0.91rem;
-  }
-  
-  .div-list-item{
-    min-height: 12rem;
-  }
-  .div-description-doctor{
-    margin-left: -3rem;
-  }
-  .div-days {
-    display: inline-flex;
-    grid-template-rows: repeat(auto-fit minmax(1rem, 1fr));
-    min-width: 22rem;
-    margin-top: -1rem;
-  }
 
-  .div-days-item{
-    max-width: 5.3rem;
-    margin-right: 0.4rem;
-  }
-}
-
-@media screen and (max-width:480px){ 
+@media screen and (max-width:600px){ 
 .div-map{
   display: none;
 }
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8ba2a1;
+  border-radius: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #ddd;
 }

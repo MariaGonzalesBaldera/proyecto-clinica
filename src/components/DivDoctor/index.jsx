@@ -1,10 +1,12 @@
 import perfil from '../../img/specialties/Doctor General.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse,faHospital } from '@fortawesome/free-solid-svg-icons'
 
 export default function DivDoctor (){
   return(
         <div className='div-list-item'>
           <div className='text-name'>Dr. Diana M.
-            <p className='text-type'>- Domicilio - Clinica</p>
+            <p className='text-type'><FontAwesomeIcon icon={faHouse} style={{color: "#9ba19f",}} /> Domicilio <FontAwesomeIcon icon={faHospital} style={{color: "#9ba19f",}} /> Clinica</p>
             <img src={perfil} alt='perfil.png'/>
           </div>
           <div className='text-description'>
