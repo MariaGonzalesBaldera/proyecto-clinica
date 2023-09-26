@@ -1,70 +1,89 @@
 .div-main-description{
-  background-color: #d0e9e8;
-  max-height: 90vh;
-  position: absolute;
-}
-.section-description{
-  align-items: flex-start;
-  max-width: 80%;
-  color: #959595;
-  background-color: #e8f4f3;
-  min-height: 100%;
+  margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 20fr));
-  margin-left: 8rem;
-  margin-right: 5rem;
 }
 
-.div-description img{
-  width: 10rem;
-  height: 10rem;
-  border-radius: 5rem;
+.section-description{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+  background-color: #e8f4f3;
+  gap: 1rem;
+  color: #959595;
+  min-height: 80vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
-.div-description b{
-  font-weight: bold;
-  display: flex;
-  margin-bottom: -1.5rem;
-  
+
+.img-perfil{
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 6rem ;
+  border: solid 1rem #e8f4f3;
 }
-.section-description div{
+
+.div-description-primero ,.div-description-segundo, .div-description-tercero{
   padding: 2rem;
 }
-.div-description-principal{
-  margin-top: -5rem;
+
+.div-description-primero{
+  text-align: justify;
+  line-height: 1.8rem;
+}
+
+.div-description-segundo{
   background-color: #959595;
-  color: white;
+  color: #e8f4f3;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+hr{
+  margin-top: -1rem;
+  max-width: 15rem;
+}
+.div-speciality{
+  font-weight: bold;
 }
 
-.div-description-principal h2{
-  margin-top: 3.5rem;
-  margin-bottom: -3.5rem;
-}
-.div-description-second{
-  display: grid;
-}
-.div-information {
-  margin-top: 1.5rem;
-}
-
-.btn-description-reservar{
+.btn-description-reservar {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
   border: solid 1px blanchedalmond;
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  min-width: 8rem;
+  min-height: 3rem;
+  font-weight: bold;
   justify-content: center;
 }
 
-.btn-description-reservar:hover{
+.btn-description-reservar:hover {
   color: #959595;
   background-color: #e8f4f3;
   cursor: pointer;
 }
-@media screen and (max-width:480px){
-  .section-description{
-    display: inline-block;
-    margin-left: 2rem;
-    margin-right: 2rem;
+
+.div-description-tercero{
+  text-align: start;
+}
+
+ul {
+  line-height: 1.3rem;
+  padding-left: .5rem;
+  margin-bottom: .5rem;
+  margin-top: .1rem;
+  list-style: none; 
+}
+
+li {
+  margin: .1rem 0;
+  line-height: 1rem;
+}
+
+
+@media screen and (max-width: 480px) {
+  .div-description-segundo{
+    border-radius: 0rem;
   }
-    .section-description div{
-      padding: 1rem;
-      display: inline-block;
-    }
-  }
+}

@@ -1,21 +1,87 @@
 import '../../styles/SearchMap.css';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react'
+import data from '../../archivo.json';
+import MapContainers from '../MapContainers';
 
-import DivDoctor from '../DivDoctor';
-export default function SearchMap(){
-  return(
+export default function SearchMap() {
+  const [positions, setPositions] = useState([-12.045955, -77.030550])
+  const [users, setUsers] = useState([])
+  const [selectedMode, setSelectedMode] = useState('Domicilio');
+
+  const showData = () => setUsers(data)
+  useEffect(() => showData(), [])
+  const handleChange = (e) => {
+    setSelectedMode(e.target.value);
+  };
+
+  const hasSelectedMode = (item) => {
+    const modesArray = Object.values(item.mode);
+    return modesArray.includes(selectedMode);
+  };
+
+  const filteredData = data.filter((item) => hasSelectedMode(item));
+
+  const handleMouseEnter = (e) => {
+    const eventContainer = e.target.classList.contains('link-description')
+    if (!eventContainer) {
+      e.stopPropagation();
+    } else {
+      users.filter(user => user["id"] == e.target.id).map(user => {
+        setPositions(user["url-map"])
+      })
+    }
+  };
+
+  return (
     <section className="section-map">
-        <Link to={"/description"} className='link-description'>
-          <div className='div-list'>
-            <DivDoctor/>
-            <DivDoctor/>
-            <DivDoctor/>
-            <DivDoctor/>
-          </div>
-      </Link>
+      <div className='div-list' >
+
+        {/* inicio radio /> */}
+
+        <div className="form-group-mode">
+          <span className="opcion-radio">
+            <input type="radio" id="Domicilio-clinica" name="type-of-mode" value="Domicilio"
+              checked={selectedMode == "Domicilio"}
+              onChange={handleChange} />
+            <label htmlFor="Domicilio-clinica">Domicilio/Clinica</label>
+          </span>
+          <span className="opcion-radio">
+            <input type="radio" id="Videoconsulta" name="type-of-mode" value="Videoconsulta"
+              checked={selectedMode == "Videoconsulta"}
+              onChange={handleChange} />
+            <label htmlFor="Videoconsulta">Video Consulta</label>
+          </span>
+        </div>
+        {/* fin radio /> */}
+        {filteredData.map((user) => (
+          <Link to={`/description/${user.id}`} className='link-description' key={user.id} onMouseEnter={handleMouseEnter} id={user.id}>
+            <div className='div-list-item'>
+              <div className='text-name'> Dr. {user.name}
+                <p className='text-type'>{Object.values(user.mode).join(' - ')}</p>
+                <img src={user.photo} alt='perfil.png' />
+              </div>
+              <div className='text-description'>
+                <div className='div-price'>S/. {user.price}</div>
+                <div className='div-description-doctor'>
+                  20.9km de ti.<br />
+                  {Object.values(user.idioms).join(', ')}
+                  <br />{user["years-experience"]} años de experiencia
+                </div>
+              </div>
+              <div className='div-days'>
+                <div className='div-days-item'>HOY</div>
+                <div className='div-days-item'>24 Agos</div>
+                <div className='div-days-item'>25 Agos</div>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
       <div className='div-map'>
-        <iframe className='iframe-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.312788174603!2d-77.06407192570944!3d-12.021974141438088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf6e0011edbd%3A0x6be3d14590186ce!2sCentro%20de%20lima!5e0!3m2!1ses-419!2spe!4v1693021352884!5m2!1ses-419!2spe"></iframe>
+        <MapContainers positions={positions} />
       </div>
     </section>
+
   )
 }

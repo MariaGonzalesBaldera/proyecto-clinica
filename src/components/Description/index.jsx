@@ -1,39 +1,69 @@
-import perfil from '../../img/doctoraEjemplo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse,faHospital } from '@fortawesome/free-solid-svg-icons'
-export default function Description(){
-  return(
-      <div className="div-main-description">
-          <section className="section-description">
-          <div className="div-description"> 
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { useParams } from 'react-router-dom';
+import data from '../../archivo.json';
+
+export default function Description() {
+  let { id } = useParams();
+
+  data.filter(user => user["id"] == id).map(user => user)
+
+  const filteredData = data.filter(user => user["id"] == id).map(user => user)
+
+  return (
+    <div className="div-main-description">
+      {filteredData.map((user) => (
+        <section className="section-description" key={user.id}>
+          <div className="div-description-primero">
             <section className='div-description-second'>
-              <h2>Acerca de</h2>
-              <b>Universidad</b>
+              <h2>Acerca de </h2>
+              <b>Universidad </b>
               <div>
-                Universidad Peruana Cayetano Heredia
+                {user.university}
               </div>
               <b>Biografia</b>
               <div>
-                Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.
+                {user.description}
               </div>
             </section>
           </div>
-          <div className="div-description">
-            <img src={perfil}/>
-            <div className='div-description-principal'>
-            <h2>Dra. Diana Martinez</h2>
-            <div  className='div-information'>
-                <p><FontAwesomeIcon icon={faHouse} style={{color: "#d0d4dd",}} /> Domicilio &#160; &#160;
-                <FontAwesomeIcon icon={faHospital} style={{color: "#d0d4dd",}} /> Clínica</p>
-                <p>Cuento con 5 años de experiencia </p>
-                <br/>
-              <div className='btn-description-reservar'>
-                Reservar
+          <div className='div-description-segundo'>
+            <div className='div-description-enter'>
+              <div className='div-head'>
+                <img className='img-perfil' src={user.photo} />
+                <h2 className='user-name'>{user.name}</h2>
+                <hr />
+              </div>
+              <div className='div-speciality'>
+                {user.speciality}
+              </div>
+              <div className='div-descripton-principal-info'>
+                <div className='btn-description-reservar'>
+                  Reservar
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          <div className='div-description-tercero'>
+            <h2>Detalles</h2>
+            <b>Idiomas que domina:</b>
+              <ul>
+                {Object.entries(user.idioms).map(([key, value]) => (
+                  <li key={key}><FontAwesomeIcon icon={faAngleUp} rotation={90} /> {value}</li>
+                ))}
+              </ul>
+            <b>Consultas disponibles en: </b>
+            <ul>
+                {Object.entries(user.mode).map(([key, value]) => (
+                  <li key={key}><FontAwesomeIcon icon={faAngleUp} rotation={90} /> { value }
+                  </li>
+                ))}
+              </ul>
+            <b>Años de experiencia</b>
+            <div>Cuento con {user["years-experience"]} años de experiencia </div>
+          </div>
+        </section>
+      ))}
     </div>
   )
 } 

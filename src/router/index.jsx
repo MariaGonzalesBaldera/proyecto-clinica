@@ -7,7 +7,7 @@ export default function Router(){
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/select' element={<SpecialtiesSelect/>} />
-                <Route path='/description' element={<DescriptionDoctor/>} />
+                <Route path='/description/:id' element={<DescriptionDoctor/>} />
             </Routes>
         </BrowserRouter>
     )
