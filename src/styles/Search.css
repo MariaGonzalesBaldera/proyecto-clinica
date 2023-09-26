@@ -47,11 +47,11 @@
   outline: none;
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
-  color: #58629b;
+  color: #4a7978;
 }
 
 ::placeholder{
-  color: #58629b;
+  color: #4a7978;
 }
 
 .search-bar button {
@@ -59,8 +59,9 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  background: #58629b;
+  background: #4a7978;
   cursor: pointer;
+  margin-right: -.5rem;
 }
 
 .search-bar button img{

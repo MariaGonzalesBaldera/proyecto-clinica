@@ -1,45 +1,31 @@
 import { Link } from 'react-router-dom';
 import '../../styles/Specialties.css';
-import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserDoctor, faVideo, faBone, faUserNurse, faTooth, faHeartPulse, faChildren } from '@fortawesome/free-solid-svg-icons'
 
 export default function Specialties() {
-  const [imageComponents, setImageComponents] = useState([]);
-
-  useEffect(() => {
-    const importImages = async () => {
-      const imagePaths = ['Teleconsulta.png', 'Doctor General.png', 'Dentista.png', 'Ortopedista.png', 'Pediatra.png', 'Ginecologa.png', 'Cardiolo.png'];
-      const imageImports = await Promise.all(
-        imagePaths.map(path => `../../img/specialties/${path}`)
-      );
-
-      const imageComponents = imageImports.map((module, index) => (
-
-        <>
-          <img
-            key={index}
-            src={`src/img/specialties/${imagePaths[index]}`}
-            alt={`${imagePaths[index]}`}
-          />
-          <p className='text-specialties'>{`${imagePaths[index]}`.replace(".png", "")}</p>
-        </>
-
-      ));
-      setImageComponents(imageComponents);
-    };
-    importImages();
-  }, []);
+  const ListSpecialties = {
+    0 : ["Teleconsulta" , faVideo],
+    1 : ["Doctor General" , faUserDoctor],
+    2 : ["Ortopedista" , faBone],
+    3 : ["Ginecologia" , faUserNurse],
+    4 : ["Dentista" , faTooth],
+    5 : ["Cardilogo" , faHeartPulse],
+    6 : ["Pediatria" , faChildren]
+  }
 
   return (
     <section>
       <div className='main-specialties'>
         <Link to={"/select"} className='specialties-items'>
-          {imageComponents.map((item, index) => (
-            <div key={index}>{item}
-            </div>
-          ))}
+        {Object.keys(ListSpecialties).map((key) => (
+          <div key={key}>
+            <FontAwesomeIcon className='ico-specialties' icon={ListSpecialties[key][1]} style={{ color: "#4a7978", }} />
+            <p>{ListSpecialties[key][0]}</p>
+          </div>
+          ))} 
         </Link>
       </div>
     </section>
-
   )
 }

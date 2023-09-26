@@ -11,28 +11,29 @@ section{
 .specialties-items{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap :1rem;
   text-decoration: none;
+  justify-items: center;
+  margin-top: 1rem;
 }
 
 .specialties-items div{
-  margin-top: 1rem;
   background-color: #a6cecd;
-  color: #58629B;
+  color: #4A7978;
   border-radius: 2rem;
-  width: 80%;
-  min-height: 7rem;
-  
+  min-width: 12rem;
+  min-height: 4rem;
+  margin-bottom: 1rem;
 }
 
-.specialties-items div img{
-  height: 4rem;
-  width: 4rem;
+.ico-specialties{
+  min-width: 4.5rem;
+  min-height: 3.5rem;
   margin-top: 1rem;
   margin-bottom: -1rem;
 }
+
 .specialties-items div:hover{
-  margin-top: 1.2rem;
+  border: solid 1px white;
   transition:all .5s ease-in-out;
   filter: contrast(1.3) invert(2%);
   cursor: pointer;
