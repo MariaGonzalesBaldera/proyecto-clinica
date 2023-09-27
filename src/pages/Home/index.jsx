@@ -1,12 +1,10 @@
-import { Footer, Navbar, Search, Specialties } from "../../components";
+import {  Navbar, Search } from "../../components";
 
 export default function Home(){
   return(
     <>
       <Navbar/>
       <Search/>
-      <Specialties/>
-      <Footer/>
     </>
   )
 }

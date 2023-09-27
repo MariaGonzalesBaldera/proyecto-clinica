@@ -1,7 +1,6 @@
 export { default as Navbar } from './Navbar'
 export { default as Search } from './Search'
-export { default as Specialties } from './Specialties'
-export { default as SpecialtiesList } from './SpecialtiesList'
+export { default as Header } from './Header'
 export { default as Footer } from './Footer'
 export { default as SearchMap } from './SearchMap'
 export { default as Description } from './Description'

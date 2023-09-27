@@ -1,9 +1,9 @@
-import { SearchMap, SpecialtiesList } from "../../components";
+import { SearchMap, Header } from "../../components";
 
 export default function SpecialtiesSelect(){
   return(
     <>
-    <SpecialtiesList></SpecialtiesList>
+    <Header/>
     <SearchMap></SearchMap>
     </>
   )

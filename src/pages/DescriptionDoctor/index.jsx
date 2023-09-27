@@ -1,11 +1,11 @@
-import { Description, SpecialtiesList } from "../../components";
+import { Description, Header } from "../../components";
 import '../../styles/DescriptionDoctor.css'
 
 export default function DescriptionDoctor(){
   return(
     <>
-    <SpecialtiesList></SpecialtiesList>
-      <Description/>
+    <Header/>
+    <Description/>
     </>
   )
 }
