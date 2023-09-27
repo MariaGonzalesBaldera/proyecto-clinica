@@ -10,37 +10,24 @@ export default function Search() {
 
   const [search, setSearch] = useState("")
   const [users, setUsers] = useState([])
-  
-  const showData = async () => {
-    setUsers(Object.entries(ListSpecialties))
-  } 
 
-  const seacher =(e)=>{
-      setSearch(e.target.value)
-  }
+  const showData = () => setUsers(Object.entries(ListSpecialties))
 
-  
+  const seacher = (e) => setSearch(e.target.value)
+
+  useEffect(() => { showData() }, [])
+
   const ListSpecialties = {
-    "Teleconsulta":{faVideo},
-    "Doctor General": {faUserDoctor},
-    "Ortopedista": {faBone},
-    "Ginecologia": {faUserNurse},
-    "Dentista": {faTooth},
-    "Cardilogo": {faHeartPulse},
-    "Pediatria": {faChildren}
+    "Teleconsulta": { faVideo },
+    "Doctor General": { faUserDoctor },
+    "Ortopedista": { faBone },
+    "Ginecologia": { faUserNurse },
+    "Dentista": { faTooth },
+    "Cardilogo": { faHeartPulse },
+    "Pediatria": { faChildren }
   }
 
-  let results =[]
-  if(!search){
-    results = users
-  }else{
-    results = users.filter( (dato) =>
-          dato[0].toLowerCase().includes(search.toLocaleLowerCase()))
-  }
-
-  useEffect(()=>{
-    showData()
-  },[])
+  const results = !search ? users : users.filter((dato) => dato[0].toLowerCase().includes(search.toLocaleLowerCase()))
 
   return (
     <>
@@ -49,25 +36,30 @@ export default function Search() {
         <img className='logo' src={logo} alt='logo' />
         <div className='search'>
           <div className='search-bar'>
-
             <input value={search} onChange={seacher} type='text' className='input-search' placeholder='Medicina general, Dentista, Pediatra.. ' />
-
             <button type='submit'><img className='img-lupa' src={lupa} alt='img-lupa' /></button>
           </div>
         </div>
       </div>
       <section>
-      <div className='main-specialties'>
-        <Link to={"/select"} className='specialties-items'>
-        {results.map(([specialty, iconObj]) => (
-            <div key={specialty}>
-              <FontAwesomeIcon className='ico-specialties' icon={Object.values(iconObj)[0]} style={{ color: "#4a7978", }} />
-              <p>{specialty}</p>
+        <div className='main-specialties'>
+          {results.length > 0 ? (
+            <Link to={"/select"} className='specialties-items'>
+              {results.map(([specialty, iconObj]) => (
+                <div key={specialty}>
+                  <FontAwesomeIcon className='ico-specialties' icon={Object.values(iconObj)[0]} style={{ color: "#4a7978", }} />
+                  <p>{specialty}</p>
+                </div>
+              ))}
+            </Link>
+          ) : (
+            <div className='div-sin-disponibilidad'>
+              <p>Noy hay datos disponibles<br />
+                Ingresa otro valor </p>
             </div>
-          ))}
-        </Link>
-      </div>
-    </section>
+          )}
+        </div>
+      </section>
     </>
   )
 }

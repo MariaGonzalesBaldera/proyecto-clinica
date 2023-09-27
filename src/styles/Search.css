@@ -68,6 +68,13 @@
   width: 2rem;
 }
 
+.div-sin-disponibilidad{
+  margin-top: 2rem;
+  color: #4a7978;
+  font-weight: bold;
+}
+
+
 /*Inicio del listado de especialidades*/
 section{
   display: flex;
