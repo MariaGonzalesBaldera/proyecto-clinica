@@ -57,8 +57,8 @@
 .search-bar button {
   border: 0;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  min-width: 3.3rem;
+  min-height: 3.3rem;
   background: #4a7978;
   cursor: pointer;
   margin-right: -.5rem;
@@ -76,7 +76,7 @@
 
 
 /*Inicio del listado de especialidades*/
-section{
+.section-specialties{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,14 +84,19 @@ section{
 
 }
 .main-specialties{
-  width: 80%;
-}
-.specialties-items{
+  min-width: 60%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   text-decoration: none;
   justify-items: center;
   margin-top: 1rem;
+
+
+
+}
+.specialties-items{
+  text-decoration: none;
+
 }
 
 .specialties-items div{
@@ -101,6 +106,8 @@ section{
   min-width: 12rem;
   min-height: 4rem;
   margin-bottom: 1rem;
+  border: solid 1px #4A7978;
+
 }
 
 .ico-specialties{

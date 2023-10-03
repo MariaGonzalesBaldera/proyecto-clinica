@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import { useParams } from 'react-router-dom';
 import data from '../../archivo.json';
+import '../../styles/DescriptionDoctor.css'
+
 
 export default function Description() {
   let { id } = useParams();
