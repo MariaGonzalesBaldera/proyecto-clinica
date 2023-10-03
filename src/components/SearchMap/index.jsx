@@ -87,7 +87,7 @@ export default function SearchMap() {
         ))}
       </div>
       <div className='div-map'>
-        {/* <MapContainers positions={positions} /> */}
+        <MapContainers positions={positions} />
       </div>
     </section>
 
