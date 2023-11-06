@@ -1,4 +1,4 @@
-import '../../styles/SearchMap.css';
+import '../../assets/styles/SearchMap.css'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 import data from '../../archivo.json';

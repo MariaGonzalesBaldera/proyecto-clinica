@@ -1,12 +1,16 @@
-import '../../styles/Header.css';
-import logo from '../../img/hospital.png';
+import '../../assets/styles/Header.css'
 import { Link } from 'react-router-dom';
 
 export default function Header(){
+
+  const reactLogo ="hospital.png";
+  const reactLogoPath =`/${reactLogo}`
+
+
   return(
     <nav className="main-nav-Specialties">
       <div className='div-logo'><Link to={"/"}>
-        <img className='img-logo' src={logo} alt='logo'/></Link>
+        <img className='img-logo' src={reactLogoPath} alt='logo'/></Link>
       </div>
       <div className='div-descripcion'>
         <p className='text-doctor'>Medicina General</p>
