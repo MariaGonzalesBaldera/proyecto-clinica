@@ -1,10 +1,18 @@
-import { Navbar, Search } from "../../components";
-export default function Home(){
+import { Suspense, lazy } from "react";
+import Cargando from '../../components/Cargando'
+export default function Home() {
 
-  return(
+  const Navbar = lazy(() => import('../../components/Navbar'))
+  const Search = lazy(() => import('../../components/Search'))
+
+  return (
     <>
-      <Navbar/>
-      <Search/>
+      <Suspense fallback={<Cargando/>}>
+        <Navbar />
+        <Search />
+      </Suspense>
+
+
     </>
   )
 }

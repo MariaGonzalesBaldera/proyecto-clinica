@@ -1,0 +1,21 @@
+{
+  "src/assets/img/hospital.png": {
+    "file": "assets/css/index.min.css",
+    "src": "src/assets/img/hospital.png"
+  },
+  "src/main.css": {
+    "file": "assets/css/index.min2.css",
+    "src": "src/main.css"
+  },
+  "src/main.jsx": {
+    "assets": [
+      "assets/css/index.min.css"
+    ],
+    "css": [
+      "assets/css/index.min2.css"
+    ],
+    "file": "assets/js/main.min.js",
+    "isEntry": true,
+    "src": "src/main.jsx"
+  }
+}

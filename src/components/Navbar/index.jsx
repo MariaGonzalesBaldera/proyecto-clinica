@@ -5,8 +5,7 @@ export default function Navbar() {
     const mainMenuElement = document.getElementById('main-menu');
     mainMenuElement.classList.toggle('main-menu--show');
   };
-  const reactMenu ="hamburger.png";
-  const reactMenuPath =`/${reactMenu}`
+  const reactMenuPath ="dist/img/hamburger.png"
 
   return (
     <>

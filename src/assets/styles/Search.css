@@ -3,8 +3,11 @@
   margin-top: 4rem;
 }
 .logo{
-  width: 5rem;
-  height: 6rem;
+  display: inline-block;
+  position: relative;
+  margin: .01rem;
+  max-width: 6rem;
+  max-height: auto;
 }
 
 .img-lupa{
@@ -96,7 +99,6 @@
 }
 .specialties-items{
   text-decoration: none;
-
 }
 
 .specialties-items div{
@@ -107,6 +109,7 @@
   min-height: 4rem;
   margin-bottom: 1rem;
   border: solid 1px #4A7978;
+  text-transform: uppercase;
 
 }
 

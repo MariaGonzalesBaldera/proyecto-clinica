@@ -1,0 +1,854 @@
+[
+  {
+    "name": "Diana Martinez",
+    "type": [
+      "Domicilio",
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Doctor General",
+    "price": 60,
+    "idioms": [
+       "Ingles",
+       " Español",
+       "Frances"
+    ],
+    "years_experience": 2,
+    "university": "Universidad Peruana Cayetano Heredia",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [19.4284,  -99.1405],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Juan Perez",
+    "type": [
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Ortopedista",
+    "price": 70,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad San Ignacio del Oyola",
+    "description": "Dr. Juan Perez is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.952859, -77.075517],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Ana Rodriguez",
+    "type": [
+      "Clínica",
+      "Videoconsulta",
+      "Domicilio"
+    ],
+    "speciality": "Ginecología",
+    "price": 70,
+    "idioms": [
+       "Español"
+    ],
+    "years_experience": 2,
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "description": "Dr. Juan Perez is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.946967, -77.081438],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Daniel Valle",
+    "type": [
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Dentista",
+    "price": 60,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional de Ingeniería",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.961796, -77.071996],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Isabel Rosales",
+    "type": [
+      "Clínica",
+      "Videoconsulta",
+      "Domicilio"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 80,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 5,
+    "university": "Universidad Peruana Cayetano Heredia",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.966681, -77.069831],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Luis Prado",
+    "type": [
+      "Domicilio",
+      "Clínica"
+    ],
+    "speciality": "Pediatría",
+    "price": 100,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 5,
+    "university": "Universidad Nacional de Ingeniería",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.983651, -77.095801],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Doctor General",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Diana Martinez",
+    "type": [
+      "Domicilio",
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Ortopedista",
+    "price": 60,
+    "idioms": [
+       "Ingles",
+       " Español",
+       "Frances"
+    ],
+    "years_experience": 2,
+    "university": "Universidad Peruana Cayetano Heredia",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [19.4284,  -99.1405],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Juan Perez",
+    "type": [
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 70,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad San Ignacio del Oyola",
+    "description": "Dr. Juan Perez is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.952859, -77.075517],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Ana Rodriguez",
+    "type": [
+      "Clínica",
+      "Videoconsulta",
+      "Domicilio"
+    ],
+    "speciality": "Dentista",
+    "price": 70,
+    "idioms": [
+       "Español"
+    ],
+    "years_experience": 2,
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "description": "Dr. Juan Perez is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.946967, -77.081438],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Daniel Valle",
+    "type": [
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 60,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional de Ingeniería",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.961796, -77.071996],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Isabel Rosales",
+    "type": [
+      "Clínica",
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 80,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 5,
+    "university": "Universidad Peruana Cayetano Heredia",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.966681, -77.069831],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Luis Prado",
+    "type": [
+      "Domicilio",
+      "Clínica"
+    ],
+    "speciality": "Doctor General",
+    "price": 100,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 5,
+    "university": "Universidad Nacional de Ingeniería",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.983651, -77.095801],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ortopedista",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Ginecología",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Cardiólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Pediatría",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta",
+      "Clínica"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta",
+      "Domicilio"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  },
+  {
+    "name": "Melissa Medina",
+    "type": [
+      "Videoconsulta"
+    ],
+    "speciality": "Oftalmólogo",
+    "price": 90,
+    "idioms": [
+       "Ingles",
+       " Español"
+    ],
+    "years_experience": 3,
+    "university": "Universidad Nacional Pedro Ruiz Gallo",
+    "description": "Dr. Diana M. is a physician graduated from Universidad Peruana Cayetano Heredia, with primary care experience. Dr Diana M. also works in service providers for insurance agencies. Her main qualities are empathy and good communication skills.",
+    "url_map": [-11.989448, -77.083890],
+    "photo":"https://img.freepik.com/vector-premium/doctores-masculinos-femeninos-personajes-dibujos-animados_105783-113.jpg?w=740"
+  }
+  ]

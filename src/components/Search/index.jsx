@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getAllSpecialties } from '../../api/doctor.api'
 import IconComponent from '../IconComponent';
+import Cargando from '../Cargando'
 
-const reactLogoPath = "/hospital.png"
-const reactLupaPath = "/search.png"
+const reactLogoPath = "dist/img/hospital.png"
+const reactLupaPath = "dist/img/search.png"
+
 
 export default function Search() {
 
@@ -17,7 +19,7 @@ export default function Search() {
   useEffect(() => {
     async function loadSpecialty(){
       const res = await getAllSpecialties();
-      setSpecialty(res.data)
+      setSpecialty(res)
     }
     loadSpecialty();
     }, []);
@@ -27,13 +29,13 @@ export default function Search() {
   return (
     <>
       <div className='main-search'>
-        <h2>Doctor consultas</h2>
-        <img className='logo' src={reactLogoPath} alt='logo' />
+        <h2>DOCTOR CONSULTAS</h2>
+        <img className='logo' src={reactLogoPath} title='Logo' alt='logo' />
         <div className='search'>
           <div className='search-bar'>
             <input autoFocus value={search} onChange={seacher} type='text' className='input-search' placeholder='Medicina general, Dentista, Pediatra.. ' />
             <button>
-              <img className='img-lupa' src={reactLupaPath} alt='img-lupa'/>
+              <img className='img-lupa' title='Lupa' src={reactLupaPath} alt='img-lupa'/>
             </button>
           </div>
         </div>
@@ -48,11 +50,11 @@ export default function Search() {
                 </div>
               </Link>
             ))}
+            
           </div>
         ) : (
           <div className='div-sin-disponibilidad'>
-            <p>Noy hay datos disponibles<br />
-              Ingresa otro valor </p>
+            <Cargando/>
           </div>
         )}
       </section>
