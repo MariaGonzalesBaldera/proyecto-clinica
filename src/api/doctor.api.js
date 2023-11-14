@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const Api = axios.create({
-  baseURL: "http://localhost:8000/index/api/v1/",
+  baseURL: import.meta.env.VITE_URL,
 })
 
 const handleApiError = async (apiCall) => {
